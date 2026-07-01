@@ -34,7 +34,7 @@
 #### Frontend Changes:
 6. **Fixed Zone.js Import**: Angular 18+ requires explicit `import 'zone.js'` in `main.ts`. AI didn't mention this, causing `NG0908: In this configuration Angular requires Zone.js`.
 
-7. **Fixed HTTPS/HTTP Issue**: Angular couldn't connect to API due to self-signed certificate. Changed API URL from `https://localhost:7195` to `http://localhost:5001`.
+7. **Fixed HTTPS/HTTP Issue**: Angular couldn't connect to API due to self-signed certificate. Changed API URL from `https://localhost:7195` to `http://localhost:5064`.
 
 8. **Fixed Change Detection**: Added `ChangeDetectorRef` to force UI updates after API calls, preventing "must refresh to see data" issue.
 
@@ -55,3 +55,6 @@
    policy.WithOrigins("http://localhost:4200")
          .AllowAnyHeader()
          .AllowAnyMethod();
+
+## 4. Additional Notes
+Project completed successfully.

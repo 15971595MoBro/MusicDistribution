@@ -1,0 +1,41 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.ilk
+*.pdb
+*.obj
+*.exe
+*.dll
+
+# Build outputs
+bin/
+obj/
+out/
+
+# Angular
+.angular/
+node_modules/
+dist/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Database
+*.mdf
+*.ldf

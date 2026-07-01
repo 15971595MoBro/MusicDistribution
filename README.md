@@ -23,3 +23,7 @@ Full-stack application for managing music tracks and distributing them to DSPs (
 ```bash
 git clone &lt;your-repo-url&gt;
 cd MusicDistribution
+
+
+## License
+MIT License
